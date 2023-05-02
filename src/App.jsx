@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import Formulario from "./components/Formulario";
 import ImagenCripto from "./img/imagen-criptos.png";
 
 const Contenedor = styled.div`
@@ -42,7 +43,10 @@ function App() {
   return (
     <Contenedor>
       <Imagen src={ImagenCripto} alt="Imagenes" />
-      <Heading>Cotiza Cripto-Monedas al Instante</Heading>
+      <div>
+        <Heading>Cotiza Cripto-Monedas al Instante</Heading>
+        <Formulario />
+      </div>
     </Contenedor>
   );
 }
