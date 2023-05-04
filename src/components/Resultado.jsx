@@ -23,8 +23,7 @@ const Resultado = ({ resultado }) => {
           <span>{LOWDAY}</span>
         </Texto>
         <Texto>
-          Var.24hs:
-          <span>{CHANGEPCTHOUR} %</span>
+          Var.24hs: <span>{CHANGEPCTHOUR} %</span>
         </Texto>
         <Texto>
           Última Actualización: <br />
