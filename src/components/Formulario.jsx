@@ -20,6 +20,15 @@ const InputSubmit = styled.input`
     background-color: #7a7dfe;
     cursor: pointer;
   }
+  @media only screen and (max-width: 600px) {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    font-size: 14px;
+    padding: 6px;
+  }
 `;
 
 const Formulario = ({ setMonedas }) => {

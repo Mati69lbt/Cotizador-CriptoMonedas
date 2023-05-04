@@ -21,6 +21,10 @@ const Imagen = styled.img`
   width: 80%;
   margin: 100px auto 0 auto;
   display: block;
+  @media (max-width: 768px) {
+    max-width: 100%;
+    margin-top: 30px;
+  }
 `;
 
 const Heading = styled.h1`
@@ -39,6 +43,10 @@ const Heading = styled.h1`
     background-color: #66a2fe;
     display: block;
     margin: 10px auto 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 28px;
   }
 `;
 

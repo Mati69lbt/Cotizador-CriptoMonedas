@@ -4,8 +4,9 @@ export const Contenedor = styled.div`
   color: #fff;
   font-family: "Lato", sans-serif;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
   margin-top: 30px;
 `;
 

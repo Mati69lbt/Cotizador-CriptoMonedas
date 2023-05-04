@@ -1,4 +1,3 @@
-import styled from "@emotion/styled";
 import { Contenedor, Imagen, Precio, Texto } from "./styled";
 
 const Resultado = ({ resultado }) => {
@@ -24,7 +23,7 @@ const Resultado = ({ resultado }) => {
           <span>{LOWDAY}</span>
         </Texto>
         <Texto>
-          Variacion Últimas 24hs: <br />
+          Var.24hs: <br />
           <span>{CHANGEPCTHOUR} %</span>
         </Texto>
         <Texto>
